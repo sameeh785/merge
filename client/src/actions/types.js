@@ -14,6 +14,19 @@ export const Update_Profile = 'Update_Profile';
 export const Account_Deleted = 'Account_Deleted';
 export const Get_PROFILES = 'Get_PROFILES';
 export const Get_Repos = 'Get_Repos';
+export const Get_Posts = 'Get_Posts';
+export const Get_Post = 'Get_Post';
+export const Post_Error = 'Post_Error';
+export const Update_like = 'Update_like';
+export const Delete_Post = 'Delete_Post';
+export const ADD_Post = 'ADD_Post';
+export const Add_Comment = 'Add_Comment';
+export const Remove_Comment = 'Remove_Comment';
+
+
+
+
+
 
 
 

@@ -1,0 +1,7 @@
+{
+  "mongoURL": "mongodb+srv://sami:sami@sami.fkme7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "jwtSecret": "Sami",
+  "githubClientId": "f1f9b7df0f5700af5a24",
+  "githubSecret": "38b6a52a9325226c5730da14b94cb8e56314047d"
+
+}

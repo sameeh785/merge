@@ -11,8 +11,11 @@ import EditProfile   from './components/profile-form/EditProfile'
 import Experience   from './components/profile-form/Experinece'
 import Profiles from './components/profiles/Profiles'
 import Profile from './components/profile/Profile'
-
 import Education   from './components/profile-form/Education'
+//Post_Router
+import Posts from './components/posts/posts'
+import Post from './components/post/Post'
+//
 import PrivateRoute from './components/routing/PrivateRoute'
 import {setAuthToken} from './utiliz/setAuthToken'
 import {Provider} from 'react-redux'
@@ -48,6 +51,10 @@ if(localStorage.token1){
    <PrivateRoute exact path='/edit-profile' component={EditProfile}/>
    <PrivateRoute exact path='/add-experience' component={Experience}/>
    <PrivateRoute exact path='/add-education' component={Education}/>
+   <PrivateRoute exact path='/posts' component={Posts}/>
+   <PrivateRoute exact path='/post/:id' component={Post}/>
+
+
 
    </Switch>
 
